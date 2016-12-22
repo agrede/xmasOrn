@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-11022016-094167";"";
+"REFERENCE";"PJ-007";"";
+"TraceParts.PartTitle";"PJ-007 - 1.3 mm Center Pin, 1.0 A, Right Angle, Through Hole, Dc Power Jack Connector, RoHS Compliant";"";
+"TraceParts.InstanceId";"10-11022016-0941675FZA32M7DYWFS7FJFAR72M4D0";"";
+"DESIGN";"1.3 mm Center Pin, 1.0 A, Right Angle, Through Hole, Dc Power Jack Connector";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"CUI";"";
+"TraceParts.PartVersion";"1.0.3";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"CUI:10-11022016-094167";"";

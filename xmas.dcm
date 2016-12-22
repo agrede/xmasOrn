@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74ACHT1G14
+D Inverter
+F dtshts/74AHCT1G14.pdf
+$ENDCMP
+#
+$CMP MAX6817
+D Debounce
+F dtshts/MAX6816-MAX6818.pdf
+$ENDCMP
+#
+$CMP NC7WZ14
+D Inverter pair
+F dtshts/NC7WZ14.pdf
+$ENDCMP
+#
+$CMP SN74ABT273
+D D-Flip Flop
+F dtshts/scbs185b.pdf
+$ENDCMP
+#
+#End Doc Library

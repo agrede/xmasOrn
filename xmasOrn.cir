@@ -1,0 +1,73 @@
+* /home/alex/Dropbox/electronics/xmasOrn/xmasOrn.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Tue 13 Dec 2016 07:18:53 AM UTC
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+XU3  /CLRBAR /O2 /O25B /O2 /O3 /O4 /O3 /O4 /O5 GND /CLK /O6 /O5 /O6 /O7 /O8 /O7 /O8 /O9 VCC SN74ABT273		
+D2  Net-_D2-Pad1_ /O2 LED		
+R2  GND Net-_D2-Pad1_ 560		
+D5  Net-_D5-Pad1_ /O5 LED		
+R5  GND Net-_D5-Pad1_ 560		
+D3  Net-_D3-Pad1_ /O3 LED		
+R3  GND Net-_D3-Pad1_ 560		
+D4  Net-_D4-Pad1_ /O4 LED		
+R4  GND Net-_D4-Pad1_ 560		
+D6  Net-_D6-Pad1_ /O6 LED		
+R6  GND Net-_D6-Pad1_ 560		
+D9  Net-_D9-Pad1_ /O9 LED		
+R9  GND Net-_D9-Pad1_ 560		
+D7  Net-_D7-Pad1_ /O7 LED		
+R7  GND Net-_D7-Pad1_ 560		
+D8  Net-_D8-Pad1_ /O8 LED		
+R8  GND Net-_D8-Pad1_ 560		
+C3  GND VCC 10u		
+XU5  /CLRBAR /O18 /O17 /O18 /O19 /O20 /O19 /O20 /O21 GND /CLK /O22 /O21 /O22 /O23 /O24 /O23 /O24 /O25 VCC SN74ABT273		
+D18  Net-_D18-Pad1_ /O18 LED		
+R18  GND Net-_D18-Pad1_ 560		
+D21  Net-_D21-Pad1_ /O21 LED		
+R21  GND Net-_D21-Pad1_ 560		
+D19  Net-_D19-Pad1_ /O19 LED		
+R19  GND Net-_D19-Pad1_ 560		
+D20  Net-_D20-Pad1_ /O20 LED		
+R20  GND Net-_D20-Pad1_ 560		
+D22  Net-_D22-Pad1_ /O22 LED		
+R22  GND Net-_D22-Pad1_ 560		
+D25  Net-_D25-Pad1_ /O25 LED		
+R25  GND Net-_D25-Pad1_ 560		
+D23  Net-_D23-Pad1_ /O23 LED		
+R23  GND Net-_D23-Pad1_ 560		
+D24  Net-_D24-Pad1_ /O24 LED		
+R24  GND Net-_D24-Pad1_ 560		
+C5  GND VCC 10u		
+XU4  /CLRBAR /O10 /O9 /O10 /O11 /O12 /O11 /O12 /O13 GND /CLK /O14 /O13 /O14 /O15 /O16 /O15 /O16 /O17 VCC SN74ABT273		
+D10  Net-_D10-Pad1_ /O10 LED		
+R10  GND Net-_D10-Pad1_ 560		
+D13  Net-_D13-Pad1_ /O13 LED		
+R13  GND Net-_D13-Pad1_ 560		
+D11  Net-_D11-Pad1_ /O11 LED		
+R11  GND Net-_D11-Pad1_ 560		
+D12  Net-_D12-Pad1_ /O12 LED		
+R12  GND Net-_D12-Pad1_ 560		
+D14  Net-_D14-Pad1_ /O14 LED		
+R14  GND Net-_D14-Pad1_ 560		
+D17  Net-_D17-Pad1_ /O17 LED		
+R17  GND Net-_D17-Pad1_ 560		
+D15  Net-_D15-Pad1_ /O15 LED		
+R15  GND Net-_D15-Pad1_ 560		
+D16  Net-_D16-Pad1_ /O16 LED		
+R16  GND Net-_D16-Pad1_ 560		
+C4  GND VCC 10u		
+C1  GND VCC 0.1u		
+SW1  GND /CLRIN SW_PUSH		
+SW2  GND /CLKIN SW_PUSH		
+XU1  /CLRIN GND /CLKIN /CLK VCC /CLR MAX6817		
+XU2  /CLR GND /O25 /O25B VCC /CLRBAR NC7WZ14		
+C2  GND VCC 10u		
+CON1  VCC GND GND BARREL_JACK		
+D1  Net-_D1-Pad1_ VCC LED		
+R1  GND Net-_D1-Pad1_ 560		
+
+.end

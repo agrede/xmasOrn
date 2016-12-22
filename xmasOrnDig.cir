@@ -1,0 +1,48 @@
+* /home/alex/Dropbox/electronics/xmasOrn/xmasOrn.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Tue 13 Dec 2016 07:18:53 AM UTC
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+XU3  /CLRBAR /O2 /O25B /O2 /O3 /O4 /O3 /O4 /O5 0s /CLK /O6 /O5 /O6 /O7 /O8 /O7 /O8 /O9 1s SN74ABT273
+XU5  /CLRBAR /O18 /O17 /O18 /O19 /O20 /O19 /O20 /O21 0s /CLK /O22 /O21 /O22 /O23 /O24 /O23 /O24 /O25 1s SN74ABT273
+XU4  /CLRBAR /O10 /O9 /O10 /O11 /O12 /O11 /O12 /O13 0s /CLK /O14 /O13 /O14 /O15 /O16 /O15 /O16 /O17 1s SN74ABT273
+A1 [/CLKIN /CLRIN] input_vector	
+XU1  /CLRIN 0s /CLKIN /CLK 1s /CLR MAX6817
+XU2  /CLR 0s /O25 /O25B 1s /CLRBAR NC7WZ14
+
+.model input_vector d_source(input_file = "DIN.txt")
+.model inv1 d_inverter
+
+.SUBCKT SN74ABT273 CLRB 1Q 1D 2D 2Q 3Q 3D 4D 4Q GND CLK 5Q 5D 6D 6Q 7Q 7D 8D 8Q VCC
+A9 CLRB 2 inv1
+A1 1D CLK null 2 1Q null flop1
+A2 2D CLK null 2 2Q null flop1
+A3 3D CLK null 2 3Q null flop1
+A4 4D CLK null 2 4Q null flop1
+A5 5D CLK null 2 5Q null flop1
+A6 6D CLK null 2 6Q null flop1
+A7 7D CLK null 2 7Q null flop1
+A8 8D CLK null 2 8Q null flop1
+.MODEL flop1 d_dff
+.MODEL inv1 d_inverter
+.ENDS SN74ABT273
+
+.SUBCKT MAX6817 IN1 GND IN2 OUT1 VCC OUT2
+A1 IN1 1 pullup1
+A2 IN2 2 pullup1
+A3 1 OUT1 buff1
+A4 2 OUT2 buff1
+.MODEL pullup1 d_pullup
+.MODEL buff1 d_buffer
+.ENDS MAX6817
+
+.SUBCKT NC7WZ14 I1 GND I2 O2 VCC O1
+A1 I1 O1 inv1
+A2 I2 O2 inv1
+.MODEL inv1 d_inverter
+.ENDS NC7WZ14
+
+.end

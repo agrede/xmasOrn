@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name xmasOrn)(type KiCad)(uri "$(KIPRJMOD)/xmasOrn.pretty")(options "")(descr ""))
+  (lib (name myconn)(type KiCad)(uri /home/alex/Dropbox/electronics/ardTransAmp/myconn.pretty)(options "")(descr ""))
+)
